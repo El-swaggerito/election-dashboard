@@ -1,9 +1,12 @@
 
+import MobileMenu from "./MobileMenu";
+
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 h-16 bg-slate-50/60 backdrop-blur-xl flex justify-between items-center px-6 pl-72 shadow-sm border-none">
+    <header className="fixed top-0 left-0 right-0 z-50 h-16 bg-slate-50/60 flex justify-between items-center px-6 lg:pl-72 shadow-sm border-none">
       <div className="flex items-center gap-8">
-        <div className="flex items-center gap-2 px-3 py-1.5 bg-slate-100 rounded-lg">
+        <MobileMenu />
+        <div className="hidden lg:flex items-center gap-2 px-3 py-1.5 bg-slate-100 rounded-lg">
           <span className="text-blue-600 dark:text-blue-400 font-bold border-b-2 border-blue-600 dark:border-blue-400 pb-0.5 text-sm">2027 General Elections</span>
           <span className="material-symbols-outlined text-slate-400 text-sm">expand_more</span>
         </div>

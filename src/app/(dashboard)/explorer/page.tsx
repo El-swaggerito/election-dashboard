@@ -34,7 +34,7 @@ export default function ExplorerPage() {
         </div>
       </section>
       <div className="flex flex-col lg:flex-row h-full overflow-hidden">
-        <aside className="w-full lg:w-96 bg-surface-container-low overflow-y-auto border-r border-transparent p-4 space-y-3">
+        <aside className="w-full lg:w-96 bg-surface-container-low overflow-y-auto border-r border-transparent p-4 space-y-3 lg:h-[calc(100vh-12rem)]">
           <div className="flex justify-between items-center px-2 pb-2">
             <span className="text-[10px] font-label uppercase tracking-widest text-outline">Local Gov Areas (20)</span>
             <span className="text-[10px] font-label uppercase tracking-widest text-tertiary-fixed-dim bg-tertiary-container px-2 py-0.5 rounded-full">Live Updates</span>

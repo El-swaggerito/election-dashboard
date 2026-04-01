@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${manrope.variable} bg-background font-body text-on-background`}>
         <Sidebar />
         <Header />
-        <main className="pt-24 pl-72 pr-8 pb-12 min-h-screen">
+        <main className="pt-24 lg:pl-72 pr-8 pb-12 min-h-screen">
           {children}
         </main>
       </body>

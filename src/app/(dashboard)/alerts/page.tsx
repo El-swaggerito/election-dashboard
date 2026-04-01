@@ -33,7 +33,7 @@ const alerts: { severity: "High" | "Medium" | "Low"; location: string; title: st
 export default function AlertsPage() {
   return (
     <div className="max-w-7xl mx-auto">
-      <div className="flex flex-col md:flex-row justify-between items-end gap-6 mb-10">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-10">
         <div>
           <h2 className="text-4xl font-extrabold font-headline tracking-tight text-primary mb-2">Anomalies & Monitoring</h2>
           <p className="text-on-secondary-container max-w-xl">Real-time heuristic analysis of voting patterns, reporting velocity, and statistical distributions across 42,000 polling stations.</p>

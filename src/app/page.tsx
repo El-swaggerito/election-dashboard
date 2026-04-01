@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function LandingPage() {
   return (
-    <main className="relative pt-16">
+    <main className="relative">
       <section className="relative min-h-[921px] flex items-center overflow-hidden px-6 lg:px-12 bg-primary-container">
         <div className="absolute inset-0 z-0 opacity-20 mix-blend-overlay">
           <img alt="" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGZjwQz_NyO87vAfMSpYivGMK_g2OQ2q5HFraR6lreCtNQngK4NWqP931SCum4kgQvtpm35IFvUCT52d-27EP65hD4opJCrFRAR2OKVIVy5l97bFOkCJkpr_eCc9nxcE53KjfUHw6kkDaD9eL7KjU26iZyML_RvGzPU1eHEdZH3ilsHoeRFWIepeR9Lx-ERYzfAmQljZY8RVG2RHmnUsgV94ItmTeYtgRkUrDZdOhl-O4HcWJ1aFmZ668TNa_a5Vgyaf84jFkXM_k"/>

@@ -19,7 +19,7 @@ export default function DashboardPage() {
         </div>
         <p className="text-on-secondary-container mt-2 max-w-2xl font-body">Real-time cross-referencing of primary polling unit data against sovereign decentralized ledgers. 94.2% of reporting centers finalized.</p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-10">
         {kpiData.map((data, index) => (
           <KPIStatCard key={index} {...data} />
         ))}

@@ -47,7 +47,7 @@ export default function MethodologyPage() {
           <p className="text-xl text-on-secondary-container leading-relaxed">Our methodology combines rigorous statistical analysis with human oversight to provide an impartial, real-time audit of democratic processes. We don't just report numbers; we verify their integrity.</p>
         </div>
       </header>
-      <div className="p-8 md:p-16 space-y-24">
+      <div className="p-8 md:p-16 space-y-16">
         <section className="max-w-7xl mx-auto">
           <InstitutionalDisclaimer />
         </section>

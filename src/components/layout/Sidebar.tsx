@@ -18,7 +18,7 @@ const Sidebar = () => {
   const pathname = usePathname();
 
   return (
-    <aside className="fixed left-0 top-0 h-full w-64 z-40 bg-slate-900 flex flex-col pt-20 pb-6">
+    <aside className="hidden lg:fixed left-0 top-0 h-full w-64 z-40 bg-slate-900 lg:flex flex-col pt-20 pb-6">
       <div className="px-6 mb-8">
         <h1 className="text-white font-black text-lg tracking-widest font-headline">VOTELENS</h1>
         <p className="text-slate-400 text-[10px] uppercase tracking-[0.2em] font-label mt-1">Sovereign Verifier</p>

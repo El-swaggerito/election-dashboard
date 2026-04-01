@@ -37,7 +37,7 @@ export default function ComparePage() {
         />
       </div>
       <ComparisonTable />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
         <PartyPerformanceChart />
         <VoteIntegrityChart />
       </div>
